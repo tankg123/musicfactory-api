@@ -7,7 +7,7 @@ const http = require("http");
 const path = require("path");
 
 const app = express();
-const PORT = process.env.PORT || 4013;
+const PORT = process.env.PORT || 4014;
 
 // initialize DataBase
 initializeDatabase();
@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 
 const allowedOrigins = [
   "https://revenue.ansnetwork.vn",
-  "https://expense.ansnetwork.vn",
+  "https://musicfactory.amnhacso.com",
 ];
 
 app.use(
